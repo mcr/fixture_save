@@ -27,6 +27,7 @@ have been written and avoides writing them twice.
 Typically an overridden version will look like:
 
     class Blog
+      include FixtureSave
       belongs_to :author
       has_many :posts
       ...
